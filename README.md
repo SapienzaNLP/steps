@@ -1,6 +1,6 @@
 <div align="center">    
 
-# STEPS:<u>S</u>emantic <u>T</u>yping of <u>E</u>vent <u>P</u>rocesses with a Sequence-to-Sequence Approach
+# STEPS: <u>S</u>emantic <u>T</u>yping of <u>E</u>vent <u>P</u>rocesses with a Sequence-to-Sequence Approach
 
 [![Paper](https://img.shields.io/badge/proc-AAAI--Proceedings-blue)]()
 [![Conference](https://img.shields.io/badge/aaai-AAAI--2022-red)](https://aaai.org/Conferences/AAAI-22/)
