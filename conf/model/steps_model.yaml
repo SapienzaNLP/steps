@@ -1,0 +1,18 @@
+# @package _group_
+_target_: src.pl_modules.steps_module.STEPSModule
+
+model_steps:
+  transformer_model: 'facebook/bart-large'
+  freeze_encoders: False
+  freeze_embeddings: False
+
+tokenizer_bart:
+  transformer_model: 'facebook/bart-large'
+  add_prefix_space: True
+  force_bos_token_to_be_generated: True
+
+optimizer:
+  _target_: torch.optim.Adagrad
+  lr: 2e-5
+  eps: 1e-10
+  weight_decay: 0

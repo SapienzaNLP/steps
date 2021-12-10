@@ -1,0 +1,4 @@
+tokenizer_bart:
+  transformer_model: 'facebook/bart-large'
+  add_prefix_space: True
+  force_bos_token_to_be_generated: True

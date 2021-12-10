@@ -1,0 +1,14 @@
+train_dataset: 
+  _target_: src.dataset.steps_dataset.STEPSDataset
+  file_path: ../../../../data/STEPS_dataset/train.tsv
+
+validation_dataset:
+  _target_: src.dataset.steps_dataset.STEPSDataset
+  file_path: ../../../../data/STEPS_dataset/validation.tsv
+  
+test_dataset:
+  _target_: src.dataset.steps_dataset.STEPSDataset
+  file_path: ../../../../data/STEPS_dataset/test.tsv
+
+batch_size: 1
+

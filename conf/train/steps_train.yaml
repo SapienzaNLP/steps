@@ -1,0 +1,37 @@
+# @package _group_
+
+# reproducibility
+seed: 10
+
+# model name
+model_name: steps_bart  # used to name the directory in which model's checkpoints will be stored (experiments/model_name/...)
+
+optimizer:
+  _target_: torch.optim.Adagrad
+  lr: 2e-5
+  eps: 1e-10
+  weight_decay: 0
+
+callbacks_monitor: mrr_verb
+
+# pl_trainer
+pl_trainer:
+  _target_: pytorch_lightning.Trainer
+  gpus: 1
+  max_steps: 100_000
+
+# early stopping callback
+early_stopping_callback:
+  _target_: pytorch_lightning.callbacks.EarlyStopping
+  monitor: mrr_verb
+  mode: max
+  patience: 3
+
+# model_checkpoint_callback
+model_checkpoint_callback:
+  _target_: pytorch_lightning.callbacks.ModelCheckpoint
+  monitor: mrr_verb
+  mode: max
+  verbose: True
+  save_top_k: 1
+  dirpath: ./
