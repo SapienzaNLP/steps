@@ -8,6 +8,8 @@
 
 </div>
 
+STEPS is an end-to-end approach for producing user intent in terms of actions and objects only, dispensing with the need for their definitions. This is achieved by reformulating the free-form  Multi-axis Event Process Typing task as a sequence generation problem.
+
 
 If you find our paper, code or framework useful, please reference this work in your paper:
 
