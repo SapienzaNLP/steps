@@ -2,7 +2,7 @@
 
 # STEPS: <u>S</u>emantic <u>T</u>yping of <u>E</u>vent <u>P</u>rocesses with a Sequence-to-Sequence Approach
 
-[![Paper](https://img.shields.io/badge/proc-AAAI--Proceedings-blue)]()
+[![Paper](https://img.shields.io/badge/proc-AAAI--Proceedings-blue)](https://github.com/SapienzaNLP/steps/blob/main/docs/AAAI22_STEPS.pdf)
 [![Conference](https://img.shields.io/badge/aaai-AAAI--2022-red)](https://aaai.org/Conferences/AAAI-22/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
