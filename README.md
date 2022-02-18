@@ -14,7 +14,7 @@ STEPS is an end-to-end approach for producing user intent in terms of actions an
 If you find our paper, code or framework useful, please reference this work in your paper:
 
 ```
-@inproceedings{pepe-etal-2021-steps,
+@inproceedings{pepe-etal-2022-steps,
   title     = {STEPS: Semantic Typing of Event Processes with a Sequence-to-Sequence Approach},
   author    = {Pepe, Sveva and Barba, Edoardo, and Blloshmi, Rexhina and Navigli, Roberto},
   booktitle = {Proceedings of {AAAI}},
