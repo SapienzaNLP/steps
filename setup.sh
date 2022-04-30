@@ -21,7 +21,7 @@ fi
 read -p "Download STEPS dataset? [y/N] "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  wget -O data/STEPS_dataset.zip "https://drive.google.com/uc?export=download&id=1XpSVXV0FbYys3lhe36oQBWSHqNPoqAKw" 
+  wget -O data/STEPS_dataset.zip "https://drive.google.com/uc?export=download&id=1637VyjvHvrtgzn4sAY7MA6QuwY6FNRG_" 
   unzip -d data/ data/STEPS_dataset.zip
   rm data/STEPS_dataset.zip
 fi
