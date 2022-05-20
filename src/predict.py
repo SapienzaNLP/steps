@@ -47,7 +47,7 @@ def predict_verb_arg(generate_batch, source, target, model, tokenizer, mrr_v, re
             verbs_pred, args_pred = find_verbs_args(gold_elem, new_predictions, verbs_pred, args_pred)
 
         mrr_v, rec1v, rec10v = predict_test_verb(gold_elem, verbs_pred, rec1v, rec10v, mrr_v) 
-        mrr_a, rec1a, rec10a = predict_test_arg(gold_elem, verbs_pred, rec1a, rec10a, mrr_a) 
+        mrr_a, rec1a, rec10a = predict_test_arg(gold_elem, args_pred, rec1a, rec10a, mrr_a) 
 
     return mrr_v, rec1v, rec10v, mrr_a, rec1a, rec10a
 
